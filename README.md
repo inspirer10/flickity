@@ -1,1 +1,1 @@
-# flickity
+# link to page with flickity_carousel  -  https://inspirer10.github.io/flickity/
