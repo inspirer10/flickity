@@ -30,7 +30,9 @@
     "url": "https://github.com/inspirer10/nauka-gita-piosenka/issues"
   },
   "homepage": "https://github.com/inspirer10/nauka-gita-piosenka#readme",
-  "dependencies": {},
+  "dependencies": {
+    "flickity-hash": "^1.0.3"
+  },
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.26.3",
