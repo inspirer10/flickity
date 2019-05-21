@@ -1,20 +1,45 @@
 .carousel-cell {
-    width: 50%; /* full width */
-    height: 50vh; /* height of carousel */
+    width: 50%;
+    /* full width */
+    height: 50vh;
+    /* height of carousel */
     margin-right: 10px;
     min-height: 250px;
     background-size: cover;
-  }
+}
 
 .container {
     max-width: 1200px;
     text-align: center;
-    font-size: 21px;
-    margin-top: 20%;
+    font-size: 20px;
+    margin-top: 15vh;
     color: red;
     font-weight: bold;
 }
 
 .main-carousel {
     margin-top: 10%;
+}
+
+.progress-bar {
+    height: 20px;
+    width: 0;
+    background: #333;
+}
+
+.flickity-page-dots {
+    bottom: -45px;
+    //  display: none;
+}
+
+.button {
+    font-size: 26px;
+    position: absolute;
+    margin-left: 68vw;
+    text-align: center;
+    z-index: 1;
+    color: yellow;
+    margin-top: 1%;
+    background: inherit;
+    border: 0;
 }
