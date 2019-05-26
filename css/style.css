@@ -1,49 +1,11 @@
-.carousel-cell {
-  width: 100vw;
-  height: 50vh;
-  margin-right: 10px;
-  min-height: 250px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+.carousel-cell { width: 100vw; height: 50vh; margin-right: 10px; min-height: 250px; background-size: cover; background-repeat: no-repeat; background-position: center; }
 
-.container {
-  max-width: 1200px;
-  text-align: center;
-  font-size: 25px;
-  color: greenyellow;
-  font-weight: bold;
-  margin: auto;
-  margin-top: 20vh;
-}
+.container { max-width: 1200px; text-align: center; font-size: 25px; color: greenyellow; font-weight: bold; margin: auto; margin-top: 20vh; }
 
-.main-carousel {
-  margin-top: 10%;
-}
+.main-carousel { margin-top: 10%; }
 
-.progress-bar {
-  height: 20px;
-  width: 0;
-  background: #333;
-}
+.progress-bar { height: 20px; width: 0; background: #333; }
 
-.button {
-  position: absolute;
-  z-index: 1;
-  margin-left: 10%;
-  font-size: 50px;
-  color: red;
-  margin-top: 0%;
-  background: inherit;
-  border: 0;
-  font-weight: bold;
-  right: 3%;
-}
+.button { position: absolute; z-index: 1; margin-left: 10%; font-size: 35px; color: red; margin-top: 0%; background: inherit; border: 0; font-weight: bold; right: 2%; }
 
-.button-group {
-  max-width: 1200px;
-  text-align: right;
-  margin: auto;
-}
-/*# sourceMappingURL=style.css.map */
+.button-group { max-width: 1200px; text-align: right; margin: auto; }
