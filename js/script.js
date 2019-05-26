@@ -1,6 +1,10 @@
-// external js: flickity.pkgd.js
-
-var flkty = new Flickity('.main-carousel');
+var flkty = new Flickity('.main-carousel', {
+    cellAlign: "center",
+    contain: true,
+    pageDots: false,
+    hash: true,
+    wrapAround: true
+});
 
 var progressBar = document.querySelector('.progress-bar')
 
