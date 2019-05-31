@@ -1,11 +1,56 @@
-.carousel-cell { width: 100vw; height: 50vh; margin-right: 10px; min-height: 250px; background-size: cover; background-repeat: no-repeat; background-position: center; }
+.carousel-cell {
+  width: 100vw;
+  height: 50vh;
+  margin-right: 10px;
+  min-height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-.container { max-width: 1200px; text-align: center; font-size: 25px; color: greenyellow; font-weight: bold; margin: auto; margin-top: 20vh; }
+.container {
+  max-width: 1200px;
+  text-align: center;
+  font-size: 28px;
+  color: greenyellow;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 20vh;
+  text-shadow: 1px 1px white;
+}
 
-.main-carousel { margin-top: 10%; }
+.description {
+  font-size: 25px;
+  color: white;
+  text-shadow: 3px 2px black;
+}
 
-.progress-bar { height: 20px; width: 0; background: #333; }
+.main-carousel {
+  margin-top: 10%;
+}
 
-.button { position: absolute; z-index: 1; margin-left: 10%; font-size: 35px; color: red; margin-top: 0%; background: inherit; border: 0; font-weight: bold; right: 2%; }
+.progress-bar {
+  height: 20px;
+  width: 0;
+  background: #333;
+}
 
-.button-group { max-width: 1200px; text-align: right; margin: auto; }
+.button {
+  position: absolute;
+  z-index: 1;
+  margin-left: 10%;
+  font-size: 35px;
+  color: red;
+  margin-top: 0%;
+  background: inherit;
+  border: 0;
+  font-weight: bold;
+  right: 2%;
+}
+
+.button-group {
+  max-width: 1200px;
+  text-align: right;
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */

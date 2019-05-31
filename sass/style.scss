@@ -11,11 +11,18 @@
 .container {
     max-width: 1200px;
     text-align: center;
-    font-size: 25px;
+    font-size: 28px;
     color: greenyellow;
     font-weight: bold;
     margin: auto;
     margin-top: 20vh;
+    text-shadow: 1px 1px white;
+}
+
+.description {
+    font-size: 25px;
+    color: white;
+    text-shadow: 3px 2px black;
 }
 
 .main-carousel {

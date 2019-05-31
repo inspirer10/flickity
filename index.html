@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<title>Simple carousel</title>
+		<title>Simple carousel with Map</title>
 		<link rel="stylesheet" href="vendor/normalize.css">
 		<link rel="stylesheet" href="vendor/flickity.min.css">
 		<link rel="stylesheet" href="css/style.css">
@@ -11,33 +11,25 @@
 	</head>
 
 	<body>
+
 		<div class="button-group">
 			<button class="button">Restart</button>
 		</div>
 
-		<div class="main-carousel">
-
-			<div class="carousel-cell" id="carousel-cell1" style="background-image: url(https://images.pexels.com/photos/2324562/pexels-photo-2324562.jpeg?auto=compress&cs=tinysrgb&dpr)">
-				<div class="container">Example</div>
-			</div>
-			<div class="carousel-cell" id="carousel-cell2" style="background-image: url(https://images.pexels.com/photos/2331571/pexels-photo-2331571.jpeg?auto=compress&cs=tinysrgb&dpr)">
-				<div class="container">Example</div>
-			</div>
-			<div class="carousel-cell" id="carousel-cell3" style="background-image: url(https://images.pexels.com/photos/730981/pexels-photo-730981.jpeg?auto=compress&cs=tinysrgb&dpr)">
-				<div class="container">Example</div>
-			</div>
-			<div class="carousel-cell" id="carousel-cell4" style="background-image: url(https://images.pexels.com/photos/906982/pexels-photo-906982.jpeg?auto=compress&cs=tinysrgb&dpr)">
-				<div class="container">Example</div>
-			</div>
-			<div class="carousel-cell" id="carousel-cell5" style="background-image: url(https://images.pexels.com/photos/2331568/pexels-photo-2331568.jpeg?auto=compress&cs=tinysrgb&dpr)">
-				<div class="container">Example</div>
-			</div>
-		</div>
+		<div class="main-carousel"></div>
 		<div class="progress-bar"></div>
+
+		<script id="pictures" type="table-with-pictures">
+			<div class="carousel-cell" id={{id}} style="background-image: url({{image}})">
+				<div class="container">{{title}} {{{description}}}</div>
+			</div>
+		</script>
+
 		<script src="vendor/flickity.pkgd.min.js"></script>
 		<script src="js/hash.js"></script>
-		<script src="mustache.min.js"></script>
+		<script src="js/mustache.min.js"></script>
 		<script src="js/script.js"></script>
+
 	</body>
 
 </html>
