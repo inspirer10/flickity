@@ -1,6 +1,10 @@
+body {
+    text-align: center;
+}
+
 .carousel-cell {
     width: 100vw;
-    height: 50vh;
+    height: 60vh;
     margin-right: 10px;
     min-height: 250px;
     background-size: cover;
@@ -26,7 +30,7 @@
 }
 
 .main-carousel {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .progress-bar {
@@ -52,4 +56,10 @@
     max-width: 1200px;
     text-align: right;
     margin: auto;
+}
+
+#map {
+    height: 60vh;
+    width: 100%;
+    margin-top: 1%;
 }
