@@ -1,66 +1,17 @@
-body {
-  text-align: center;
-}
+body { text-align: center; }
 
-.carousel-cell {
-  width: 100vw;
-  height: 60vh;
-  margin-right: 10px;
-  min-height: 250px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+.carousel-cell { width: 100vw; height: 60vh; margin-right: 10px; min-height: 250px; background-size: cover; background-repeat: no-repeat; background-position: center; }
 
-.container {
-  max-width: 1200px;
-  text-align: center;
-  font-size: 28px;
-  color: greenyellow;
-  font-weight: bold;
-  margin: auto;
-  margin-top: 20vh;
-  text-shadow: 1px 1px white;
-}
+.container { max-width: 1200px; text-align: center; font-size: 28px; color: greenyellow; font-weight: bold; margin: auto; margin-top: 20vh; text-shadow: 1px 1px white; }
 
-.description {
-  font-size: 25px;
-  color: white;
-  text-shadow: 3px 2px black;
-}
+.description { font-size: 25px; color: white; text-shadow: 3px 2px black; }
 
-.main-carousel {
-  margin-top: 5%;
-}
+.main-carousel { margin-top: 5%; }
 
-.progress-bar {
-  height: 20px;
-  width: 0;
-  background: #333;
-}
+.progress-bar { height: 20px; width: 0; background: #333; }
 
-.button {
-  position: absolute;
-  z-index: 1;
-  margin-left: 10%;
-  font-size: 35px;
-  color: red;
-  margin-top: 0%;
-  background: inherit;
-  border: 0;
-  font-weight: bold;
-  right: 2%;
-}
+.button { position: absolute; z-index: 1; margin-left: 10%; font-size: 35px; color: red; margin-top: 0%; background: inherit; border: 0; font-weight: bold; right: 2%; }
 
-.button-group {
-  max-width: 1200px;
-  text-align: right;
-  margin: auto;
-}
+.button-group { max-width: 1200px; text-align: right; margin: auto; }
 
-#map {
-  height: 60vh;
-  width: 100%;
-  margin-top: 1%;
-}
-/*# sourceMappingURL=style.css.map */
+#map { height: 60vh; width: 100%; margin-top: 1%; }

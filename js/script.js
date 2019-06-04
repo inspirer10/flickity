@@ -6,8 +6,7 @@
     var carousel = document.querySelector('.main-carousel');
     var copyHere = '';
 
-    var data = [
-        {
+    var data = [{
             image: 'https://images.unsplash.com/photo-1526048516912-b0432b1633ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2029&q=90',
             id: 'carousel-cell1',
             coords: {
@@ -60,63 +59,37 @@
     ];
 
 
-    // MAPKA GOOGLE new
-    var firstPlace;
-    var secondPlace;
-    var thirdPlace;
-    var fourthPlace;
-    var fifthPlace;
-
-    for (var i = 0; i < data.length; i++) {
-        firstPlace = data[0].coords;
-        secondPlace = data[1].coords;
-        thirdPlace = data[2].coords;
-        fourthPlace = data[3].coords;
-        fifthPlace = data[4].coords;
-    }
-
-    // MAPKA GOOGLE
+    // SECTION MAPKA GOOGLE
     window.initMap = function () {
 
-        // The map, centered at coords1
+        // mapa, scentrowana na coords5
         var map = new google.maps.Map(
             document.getElementById('map'), {
                 zoom: 3,
-                center: firstPlace
+                center: data[4].coords
+            })
+
+        var tablica = [];
+
+        for (var i = 0; i < data.length; i++) {
+
+            tablica[i] = new google.maps.Marker({
+                position: data[i].coords,
+                map: map
             });
 
-        // The marker, positioned at coords1
-        var markerOne = new google.maps.Marker({
-            position: firstPlace,
-            map: map
-        });
+        }
 
-        var markerTwo = new google.maps.Marker({
-            position: secondPlace,
-            map: map
-        });
-
-        var markerThree = new google.maps.Marker({
-            position: thirdPlace,
-            map: map
-        });
-
-        var markerFour = new google.maps.Marker({
-            position: fourthPlace,
-            map: map
-        });
-
-        var markerFive = new google.maps.Marker({
-            position: fifthPlace,
-            map: map
-        });
     }
 
+
+
+    // SECTION  CAROUSEL
 
     Mustache.parse(object);
 
     for (var i = 0; i < data.length; i++) {
-        console.log(data); // opcjonalnie - pomocne
+        //console.log(data); // opcjonalnie - pomocne
         copyHere += Mustache.render(object, data[i]);
     }
 
