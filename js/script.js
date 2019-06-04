@@ -71,7 +71,7 @@
 
         var tablica = [];
 
-        for (var i = 0; i < data.length; i++) {
+        for (let i = 0; i < data.length; i++) {
 
             tablica[i] = new google.maps.Marker({
                 position: data[i].coords,
@@ -79,17 +79,15 @@
             });
 
         }
-
     }
-
 
 
     // SECTION  CAROUSEL
 
     Mustache.parse(object);
 
-    for (var i = 0; i < data.length; i++) {
-        //console.log(data); // opcjonalnie - pomocne
+    for (let i = 0; i < data.length; i++) {
+        //console.log(data);  opcjonalnie - pomocne
         copyHere += Mustache.render(object, data[i]);
     }
 
