@@ -69,11 +69,11 @@
                 center: data[4].coords
             })
 
-        var tablica = [];
+        var markers = [];
 
         for (let i = 0; i < data.length; i++) {
 
-            tablica[i] = new google.maps.Marker({
+            markers[i] = new google.maps.Marker({
                 position: data[i].coords,
                 map: map
             });
