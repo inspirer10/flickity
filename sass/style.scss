@@ -4,7 +4,7 @@ body {
 
 .carousel-cell {
     width: 100vw;
-    height: 60vh;
+    height: 50vh;
     margin-right: 10px;
     min-height: 250px;
     background-size: cover;
@@ -29,10 +29,6 @@ body {
     text-shadow: 3px 2px black;
 }
 
-.main-carousel {
-    margin-top: 5%;
-}
-
 .progress-bar {
     height: 20px;
     width: 0;
@@ -42,7 +38,7 @@ body {
 .button {
     position: absolute;
     z-index: 1;
-    margin-left: 10%;
+    margin-left: 5%;
     font-size: 35px;
     color: red;
     margin-top: 0%;
@@ -59,7 +55,6 @@ body {
 }
 
 #map {
-    height: 60vh;
+    height: 47vh;
     width: 100%;
-    margin-top: 1%;
 }
