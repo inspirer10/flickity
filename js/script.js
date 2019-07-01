@@ -62,7 +62,7 @@
     // SECTION MAPKA GOOGLE
     window.initMap = function () {
 
-        // mapa, scentrowana na coords5
+        // mapa, scentrowana na coords4
         var map = new google.maps.Map(
             document.getElementById('map'), {
                 zoom: 4,
